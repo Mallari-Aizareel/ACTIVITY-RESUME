@@ -8177,16 +8177,19 @@ main {
 
 </style>
 <body>
-    <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img" href="index.html">
-            Homepage</button>
-        <nav class="collapsible-nav" id="collapsible-nav">
-            <!-- <a href="index.html" class="nav-link active">HOME</a>
-            <a href="resume.html" class="nav-link">RESUME</a> -->
-        </nav>
-        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
-            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
-    </header>
+  <header>
+    <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto" onclick="redirectToHomepage()">
+      <img src="assets/images/share.svg" alt="share" class="btn-img"> Homepage
+    </button>
+    
+
+      <nav class="collapsible-nav" id="collapsible-nav">
+          <!-- <a href="index.html" class="nav-link active">HOME</a>
+          <a href="resume.html" class="nav-link">RESUME</a> -->
+      </nav>
+      <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+          data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+  </header>
     <div class="content-wrapper" id="cv-content">
         <aside>
             <div class="profile-img-wrapper">
@@ -8338,6 +8341,10 @@ main {
            
         </main>
     </div>
+    <script>
+      function redirectToHomepage() {
+        window.location.href = 'index.html';
+      }
     <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
     <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
