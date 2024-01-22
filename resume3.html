@@ -74,7 +74,7 @@ body {
   line-height: 1.5;
   color: #000000;
   text-align: left;
-  background-color: #f3f3f3; }
+  background-color: #2c3e50s; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -7442,13 +7442,15 @@ aside .profile-img-wrapper {
   aside .profile-img-wrapper img {
     width: 60px;
     height: 60px;
-    border-radius: 50%; }
+    border-radius: 50%; 
+    object-fit: cover; }
 
 aside .profile-name {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  line-height: 30px; }
+  line-height: 30px;
+  color: white; }
 
 aside .profile-designation {
   padding: 5px 25px;
@@ -7476,20 +7478,22 @@ aside .social-links {
       margin-right: 0; }
 
 aside .widget {
-  text-align: center;
   margin-bottom: 28px; }
   aside .widget .widget-title {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 500; 
     text-transform: uppercase;
-    margin-bottom: 10px; }
+    margin-bottom: 10px; 
+    color: #0dcaf0;}
   aside .widget .widget-content {
-    font-size: 13px; }
+    font-size: 13px;
+    color: white; }
     aside .widget .widget-content p {
       margin-bottom: 5px; }
       aside .widget .widget-content p:last-of-type {
         margin-bottom: 10px; }
   aside .widget.card {
+    background-color: #233140;
     border: 0;
     border-radius: 10px;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
@@ -7534,7 +7538,8 @@ aside .widget {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
 
 .btn-download-cv {
-  padding: 6px 30px; }
+  padding: 6px 30px;
+  margin-left: 12px; }
 
 .btn-hire-me {
   font-size: 8px;
@@ -7547,7 +7552,7 @@ header {
   padding-left: 240px;
   padding-top: 16px;
   padding-bottom: 16px;
-  background-color: #f3f3f3;
+  background-color: #2c3e50s;
   z-index: 1000; }
 
 .collapsible-nav {
@@ -8191,23 +8196,13 @@ main {
             <div class="text-center">
                 <span class="badge badge-white badge-pill profile-designation">Programmer</span>
             </div>
-            <nav class="social-links">
-                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-behance"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-dribbble"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
-            </nav>
-            <div class="widget">
-                <h5 class="widget-title">personal information</h5>
+            <div class="widget card card-body">
+                <h5 class="widget-title">Contact</h5>
                 <div class="widget-content">
-                    <p>BIRTHDAY : October 4 2001</p>
-                    <p>WEBSITE : www.code-hub.com</p>
-                    <p>PHONE : 0951-595-5140</p>
-                    <p>EMAIL : kaicesabroso.slnhseim12@gmail.com</p>
-                    <p>Address : Sta catalina San luis Pampanga</p><br/>
-                    <button class="btn btn-download-cv btn-info rounded-pill"> <img src="assets/images/download.svg" alt="download"
-                        class="btn-img">DOWNLOAD CV </button>
+                    <p>WEBSITE: <br/> www.code-hub.com</p>
+                    <p>PHONE: <br/> 0951-595-5140</p>
+                    <p>EMAIL: <br/> kaicesabroso.slnhseim12@gmail.com</p>
+                    <p>Address: <br/> Sta Catalina, San luis Pampanga</p><br/>
                 </div>
             </div>
             <div class="widget card">
@@ -8229,6 +8224,8 @@ main {
                     </div>
                 </div>
             </div>
+            <button class="btn btn-download-cv btn-info rounded-pill"> <img src="assets/images/download.svg" alt="download"
+              class="btn-img">DOWNLOAD CV </button>
         </aside>
         <main >
             <section class="intro-section" >
