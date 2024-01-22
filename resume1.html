@@ -8178,9 +8178,15 @@ main {
 </style>
 <body>
     <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
-          <a class="navbar-brand" href="index.html">Homepage</a>
-           </button>
+      <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto" onclick="redirectToHomepage()">
+        <img src="assets/images/share.svg" alt="share" class="btn-img"> Homepage
+      </button>
+      
+      <script>
+        function redirectToHomepage() {
+          window.location.href = 'index.html';
+        }
+      </script>
         <nav class="collapsible-nav" id="collapsible-nav">
             <!-- <a href="index.html" class="nav-link active">HOME</a>
             <a href="resume.html" class="nav-link">RESUME</a> -->
