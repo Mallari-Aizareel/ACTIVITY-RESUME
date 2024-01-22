@@ -1,1 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RESUME2</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/live-resume.css">
+    <!-- Add these script tags to include the html2pdf library -->
+<script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
+            Homepage</button>
+        <nav class="collapsible-nav" id="collapsible-nav">
+            <!-- <a href="index.html" class="nav-link active">HOME</a>
+            <a href="resume.html" class="nav-link">RESUME</a> -->
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+    </header>
+    <div class="content-wrapper" id="cv-content">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="assets/img/portfolio/res2.jpeg" alt="profile">
+            </div>
+            <h1 class="profile-name">Aizareel I. Mallari</h1>
+            <div class="text-center">
+                <span class="badge badge-white badge-pill profile-designation">Analyst</span>
+            </div>
+            <nav class="social-links">
+                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-behance"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-dribbble"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
+            </nav>
+            <div class="widget">
+                <h5 class="widget-title">personal information</h5>
+                <div class="widget-content">
+                    <p>BIRTHDAY : 23 November 2002</p>
+                    <p>WEBSITE : www.code-hub.com</p>
+                    <p>PHONE : +09757376823</p>
+                    <p>MAIL : aizamallari@gmail.com</p>
+                    <p>Address : San Agustin, Sta. Ana, Pampanga</p>
+                    <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
+                        class="btn-img">DOWNLOAD CV </button>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">LANGUAGES</h5>
+                        <p>Filipino : native</p>
+                        <p>English : fluent</p>
+                    </div>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p>Mobile games</p>
+                        <p>Arts and Design</p>
+                        <p>Programming</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main >
+            <section class="intro-section" >
+                <h2 class="section-title">Hello, I am Aizareel Mallari!</h2>
+                <p>I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print
+                    media. I enjoy turning complex problems into simple, beautiful and intuitive designs. My job is to
+                    build your website so that it is functional and user-friendly but at the same time attractive.
+                    Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use.
+                    My aim is to bring across your message and identity in the most creative way. I created web design
+                    for many famous brand companies.</p>
+                <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a>
+            </section>
+            <section class="resume-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h6 class="section-subtitle">RESUME</h6>
+                        <h2 class="section-title">EDUCATION</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2021 - Present</span>
+                                <h6 class="time-line-item-title">Bachelor of Science in Information Technology</h6>
+                                <p class="time-line-item-subtitle">Holy Cross College</p>
+                                <p class="time-line-item-content">College</p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2019 - 2021</span>
+                                <h6 class="time-line-item-title">Stem, Technology, Engineering and Mathematics</h6>
+                                <p class="time-line-item-subtitle">Holy Cross College</p>
+                                <p class="time-line-item-content"> Senior High School</p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2015 - 2019</span>
+                                <h6 class="time-line-item-title">Junior Highschool Completer</h6>
+                                <p class="time-line-item-subtitle">Sta. Ana National Highschool</p>
+                                <p class="time-line-item-content"> Junior High School</p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2009 - 2015</span>
+                                <h6 class="time-line-item-title">Elementary Graduate</h6>
+                                <p class="time-line-item-subtitle">San Agustin Elementary School</p>
+                                <p class="time-line-item-content"> Elementary</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="section-subtitle">RESUME</h6>
+                        <h2 class="section-title">Experience</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2010 - 2014</span>
+                                <h6 class="time-line-item-title">Analyst</h6>
+                                <p class="time-line-item-subtitle">Web Agency</p>
+                                <p class="time-line-item-content"></p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2008 - 2010</span>
+                                <h6 class="time-line-item-title">Programmer</h6>
+                                <p class="time-line-item-subtitle">Apple Inc.</p>
+                                <p class="time-line-item-content"></p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2006 - 2008</span>
+                                <h6 class="time-line-item-title">Graphic Designer</h6>
+                                <p class="time-line-item-subtitle">Apple Inc.</p>
+                                <p class="time-line-item-content"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="services-section">
+                <h6 class="section-subtitle">WHAT I DO</h6>
+                <h2 class="section-title">SERVICES</h2>
+                <div class="row">
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/001-target.svg" alt="target">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Analyst</h5>
+                            <p class="service-description"></p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/003-idea.svg" alt="bulb">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Graphic design</h5>
+                            <p class="service-description"></p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/002-development.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Development</h5>
+                            <p class="service-description"></p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/004-smartphone.svg" alt="smartphone">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Mobile design</h5>
+                            <p class="service-description"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+           
+        </main>
+    </div>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const downloadButton = document.querySelector(".btn-download-cv");
+
+        downloadButton.addEventListener("click", function () {
+            const cvContent = document.getElementById("cv-content");
+
+            html2pdf(cvContent, {
+                margin: 10,
+                filename: 'resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 1 },  // Set scale to 1 for same format as the page
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            });
+        });
+    });
+</script>
+
+
+</body>
+
+</html>
