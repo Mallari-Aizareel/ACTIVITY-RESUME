@@ -74,7 +74,7 @@ body {
   line-height: 1.5;
   color: #000000;
   text-align: left;
-  background-color: #f3f3f3; }
+  background-color: #2c3e50; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -7437,12 +7437,11 @@ a.text-white:hover, a.text-white:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-aside .profile-img-wrapper {
-  text-align: center; }
-  aside .profile-img-wrapper img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%; }
+aside .profile-img-wrapper img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover; }
 
 aside .profile-name {
   font-size: 18px;
@@ -7479,10 +7478,11 @@ aside .widget {
   text-align: center;
   margin-bottom: 28px; }
   aside .widget .widget-title {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 10px; }
+    margin-bottom: 10px; 
+    color: #0dcaf0;}
   aside .widget .widget-content {
     font-size: 13px; }
     aside .widget .widget-content p {
@@ -7490,6 +7490,7 @@ aside .widget {
       aside .widget .widget-content p:last-of-type {
         margin-bottom: 10px; }
   aside .widget.card {
+    background-color: #233140;
     border: 0;
     border-radius: 10px;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
@@ -7534,7 +7535,8 @@ aside .widget {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
 
 .btn-download-cv {
-  padding: 6px 30px; }
+  padding: 6px 30px;
+  margin-left: 12px; }
 
 .btn-hire-me {
   font-size: 8px;
@@ -7547,7 +7549,7 @@ header {
   padding-left: 240px;
   padding-top: 16px;
   padding-bottom: 16px;
-  background-color: #f3f3f3;
+  background-color: #2c3e50s;
   z-index: 1000; }
 
 .collapsible-nav {
@@ -8191,24 +8193,14 @@ main {
             <div class="text-center">
                 <span class="badge badge-white badge-pill profile-designation">Web Designer</span>
             </div>
-            <nav class="social-links">
-                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-behance"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-dribbble"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
-            </nav>
-            <div class="widget">
-                <h5 class="widget-title">personal information</h5>
-                <div class="widget-content">
-                    <p>BIRTHDAY : 12 November 2002</p>
-                    <p>WEBSITE : www.code-hub.com</p>
-                    <p>PHONE : 0955-645-4774</p>
-                    <p>EMAIL : ceciliads@gmail.com</p>
-                    <p>Address : Fausto St. San Joaquin, Sta. Ana, Pampanga</p><br/>
-                    <button class="btn btn-download-cv btn-info rounded-pill"> <img src="assets/images/download.svg" alt="download"
-                        class="btn-img">DOWNLOAD CV </button>
-                </div>
+            <div class="widget card card-body">
+              <h5 class="widget-title">Contact</h5>
+              <div class="widget-content">
+                  <p>Website: <br/>www.code-hub.com </p>
+                  <p>Phone: <br/>0955-645-4774</p>
+                  <p>Email: ceciliads@gmail.com</p>
+                  <p>Address: <br/>Fausto St. San Joaquin, Sta. Ana Pampanga</p>                    
+              </div>
             </div>
             <div class="widget card">
                 <div class="card-body">
@@ -8229,6 +8221,7 @@ main {
                     </div>
                 </div>
             </div>
+            <button class="btn btn-download-cv btn-info rounded-pill"> <img src="assets/images/download.svg"  class="btn-img">Download </button>
         </aside>
         <main >
             <section class="intro-section" >
